@@ -1,0 +1,18 @@
+package domain.valueo;
+
+public class TrainerAID extends Value{
+
+	private String trainerAID;	// トレーナAのID
+
+	/* コンストラクタ */
+	public TrainerAID(String trainerAID){
+		super();
+		this.trainerAID = trainerAID;
+	}
+
+	// トレーナAのID
+	public String getTrainerAID(){
+		return trainerAID;
+	}
+
+}
