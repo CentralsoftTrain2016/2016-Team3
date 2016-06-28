@@ -1,0 +1,110 @@
+/* 日報満足スタイルシート */
+
+/* リンク文字色 */
+a:link{
+	color: navy;
+}
+
+/*  */
+
+a:active{ background: #ff8000;}
+
+/* 背景色 */
+body {
+	background-color: #99FFFF;
+	}
+p { line-height: 100%;
+	margin: 0em 0px;
+	padding: 0em 0px;
+}
+#header { background-color: #c0c0c0; }
+.copy { color: #808080; }
+
+/* Login.jsp */
+/* ログインボタン */
+.login{
+	width:150px;		/*よこ*/
+	height:30px;		/*たて*/
+	background-color:#c0c0c0;	/*背景色*/
+	color:#000000;		/*文字色*/
+	font-size:15px;		/*文字の大きさ*/
+	font-weight:900;	/*文字の太さ*/
+	text-align:center;	/*centerで中央そろえ*/
+	border-radius:5px; /*角を丸める*/
+    box-shadow:2px 2px #0080c0; /*影*/
+    margin:3px;
+}
+.login:hover{
+	background-color:#b0b0b0; /*カーソル合わせたときに変える色*/
+}
+
+/* 新規登録ボタン */
+.newRegist{
+	width:150px;		/*よこ*/
+	height:30px;		/*たて*/
+	background-color:#c0c0c0;	/*背景色*/
+	color:#000000;		/*文字色*/
+	font-size:15px;		/*文字の大きさ*/
+	font-weight:900;	/*文字の太さ*/
+	text-align:center;	/*centerで中央そろえ*/
+	border-radius:5px; /*角を丸める*/
+    box-shadow:2px 2px #0080c0; /*影*/
+    margin:3px;
+}
+.newRegist:hover{
+	background-color:#b0b0b0; /*カーソル合わせたときに変える色*/
+}
+
+/* IDとPass入力フィールド */
+.textLogin{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px
+}
+
+/*MailList.jsp*/
+/* 受信メール一覧 */
+.mt{
+  text-align: center;
+  background: #c0c0c0;
+  line-height: 1em;
+}
+.mt:nth-child(2n){
+	background: #a0a0a0; /*交互に色を変える*/
+}
+.mt:hover{ color:maroon; background:#ff80c0;}
+
+.regist1{
+	width:150px;		/*よこ*/
+	height:30px;		/*たて*/
+	background-color:#c0c0c0;	/*背景色*/
+	color:#000000;		/*文字色*/
+	font-size:15px;		/*文字の大きさ*/
+	font-weight:900;	/*文字の太さ*/
+	text-align:center;	/*centerで中央そろえ*/
+	border-radius:5px; /*角を丸める*/
+    box-shadow:2px 2px #0080c0; /*影*/
+    margin:3px;
+}
+.regist:hover{
+	background-color:#b0b0b0; /*カーソル合わせたときに変える色*/
+}
+.regist2{
+	width:150px;		/*よこ*/
+	height:30px;		/*たて*/
+	background-color:#c0c0c0;	/*背景色*/
+	color:#000000;		/*文字色*/
+	font-size:15px;		/*文字の大きさ*/
+	font-weight:900;	/*文字の太さ*/
+	text-align:center;	/*centerで中央そろえ*/
+	border-radius:5px; /*角を丸める*/
+    box-shadow:2px 2px #0080c0; /*影*/
+    margin:3px;
+}
+.regist:hover{
+	background-color:#b0b0b0; /*カーソル合わせたときに変える色*/
+}
+
+.t {
+word-wrap: break-word;
+}
